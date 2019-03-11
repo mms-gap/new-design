@@ -1,0 +1,30 @@
+.a_nav{
+	color:white;
+	width: 180px;
+	text-align:center;
+	
+}
+#myNavbar{
+	margin: 0 auto;
+}
+#navbar_home {
+	background-color:#aaaaaa;
+	border-radius: 0px;
+	box-shadow: 5px 5px 5px 5px #888888;
+}
+
+  .navbar li a, .navbar .navbar-brand {
+      color: white; !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #006dcc !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+.icon-bar{
+	background-color:white;
+}

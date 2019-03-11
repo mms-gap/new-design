@@ -1,0 +1,59 @@
+<html>
+<head>
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="css/modal.css">
+<head>
+<body>
+			<form class="modal-content animate" action="php/register_details_local.php" method="post">
+			<div class="container-fluid">
+			<span style="font-size: 40px;" onclick="document.getElementById('register1').style.display='none'" class="close" title="Close Modal">&times;</span>
+			<h1 class="absolute"><b>Rgister For MMS-GAP</b></h1>
+			<div id="static">
+				<label for="firstName"><b>First Name</b></label>
+				<input type="text" id="firstname" class="sign_input" placeholder="Enter First Name" name="firstName"  required>
+
+				<label for="lasttName"><b>Last Name</b></label>
+				<input type="text" id="lasttname" class="sign_input" placeholder="Enter Last Name" name="lasttName" required>
+				
+				<label for="userName"><b>Username</b></label>
+				<input type="text" class="sign_input" placeholder="Enter Username" name="userName" required>
+
+				<label for="Password"><b>Password</b></label>
+				<input type="password" class="sign_input" placeholder="Enter Password" name="Password" required>
+				
+				<label for="ID"><b>ID Number</b></label>
+				<input type="number" class="sign_input" placeholder="Enter ID" name="ID" required>
+				
+				<label for="Email"><b>Email</b></label>
+				<input type="Email" class="sign_input" placeholder="Enter Email" name="Email" required>
+				
+				<label for="UserType"><b>User Type</b></label>
+				<select class="sign_input" name="UserType">
+					<option value="Patient">Patient</option>
+					<option value="Doctor">Doctor</option>
+					<option value="Trainer">Trainer</option>
+					<option value="Nutrition">Nutrition</option>
+				</select>
+				
+				<label for="Age"><b>Age</b></label>
+				<input type="number" class="sign_input" placeholder="Enter Age" name="Age">
+				
+				<label for="State"><b>State</b></label>
+				<input type="text" class="sign_input" placeholder="Enter State" name="State">
+				
+				<label for="Address"><b>Address</b></label>
+				<input type="text" class="sign_input" placeholder="Enter Address" name="Address">
+			</div>
+				<button type="submit" class="btn btn-primary btn-lg btn-block">Rgister</button>
+				<label><input type="checkbox" checked="checked" name="remember" > Remember me</label>
+			
+
+			<div class="container-fluid" style="background-color:#f1f1f1">
+				<button type="button" onclick="document.getElementById('register1').style.display='none'" class="btn btn-danger">Cancel</button>
+			</div>
+			</form>
+			<script>
+
+		
+</body>
+</html>

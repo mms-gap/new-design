@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" id="stylesheet" href="css/nav.css">
+	<!----toggle Function ---->
+		<script src="js/Toggle.js"></script>
+</head>
+<body>
+	<div id="allNav">
+		<div class="sidebar" id="mySidebar" style="display:block">
+			  <button id="open" onclick="Toggle()">
+				<a ><i class="fas fa-bars"></i></a>
+			  </button>
+			  <a href="#" onclick="toggleNav('goals')" class="notActive active" id="nav12"><i class="glyphicon glyphicon-screenshot"></i></a>
+			  <a href="#"onclick="toggleNav('Restrictions')" class="notActive" id="nav32"><i class="glyphicon glyphicon-exclamation-sign"></i></a>
+			  <a href="#" onclick="toggleNav('Workout')" class="notActive" id="nav42"><i class="fas fa-burn"></i></a>
+			  <a href="#" onclick="toggleNav('Food')" class="notActive" id="nav52"><i class="fas fa-utensils"></i></a>
+			  <a href="#" onclick="toggleNav('Progress')" class="notActive" id="nav62"><i class="fa fa-line-chart"></i></a>
+			  <a href="#" onclick="toggleNav('Message')" class="notActive" id="nav72"><i class="far fa-comments"></i></a>
+			  <a href="#" onclick="toggleNav('Notification')" class="notActive" id="nav82"><i class="fas fa-bell"></i></a>
+		</div>
+		
+		<div class="sidebar2" id="mySidebar2"  style="display:none">
+			  <button id="Close" onclick="Toggle()">
+				<a><i class="fas fa-times"></i></a>
+			  </button>
+			  <div class="row">
+				<div class="col-md-3 " id="profile_picture">
+						<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+							<img src="images/‏‏imgAvatar2.png" alt="Your picture" id="avatar" style="width:100px;"  class="w3-circle w3-hover-opacity text-center">
+						<form action="" method="post" enctype="multipart/form-data">
+							<input id="imageUpload" type="file" name="profile_photo" placeholder="Photo" required="" capture style="display:none">
+							<br><input type="submit" value="Upload Image" id="Upload" class="btn btn-outline" name="submitPicture" style="display:block; margin-left: -5px;">
+						</form>
+				</div>
+			  </div><br>
+			  <hr>
+			  <a href="#" onclick="toggleNav('goals')" class="notActive active" id="nav1"><i class="glyphicon glyphicon-screenshot"></i> Goals</a>
+			  <a href="#"onclick="toggleNav('Restrictions')" class="notActive" id="nav3"><i class="glyphicon glyphicon-exclamation-sign"></i> Restrictions</a>
+			  <a href="#" onclick="toggleNav('Workout')" class="notActive" id="nav4"><i class="fas fa-burn"></i> Workout</a>
+			  <a href="#" onclick="toggleNav('Food')" class="notActive" id="nav5"><i class="fas fa-utensils"></i> Food plan</a>
+			  <a href="#" onclick="toggleNav('Progress')" class="notActive" id="nav6"><i class="fa fa-line-chart"></i> Progress</a>
+			  <a href="#" onclick="toggleNav('Message')" class="notActive" id="nav7"><i class="far fa-comments"></i> Message</a>
+			  <a href="#" onclick="toggleNav('Notification')" class="notActive" id="nav8"><i class="fas fa-bell"></i> Notification</a>
+		</div>
+	</div>
+</body>
+</html>
+
+
+

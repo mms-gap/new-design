@@ -1,0 +1,16 @@
+header{
+	background-color:#424242;
+	margin-top:70px;
+}
+
+
+#header_logo{
+	width:200px;
+	height:200px;
+}
+
+@media only screen and (max-width: 770px) {
+    header{
+		margin-top:55px;
+	}
+}

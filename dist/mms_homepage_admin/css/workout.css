@@ -1,0 +1,65 @@
+.bg1 { 
+	background-image: url("../images/sport-1235019_960_720.jpg");
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-top:-5px;
+}
+.col-md-12{
+	padding:5px;
+}
+#title{
+	color:white;
+	display:inline-block;
+	font-size:5em;
+}
+.span{
+	float:left;
+}
+
+.eye{
+	float: right;
+	margin-top: 25px;
+	margin-right: 10px;
+}
+
+.textarea1{
+	height: 70px;
+	width:70%;
+	margin-left:85px;
+	border: 2px solid #ccc;
+	resize: none;
+	border-left: 5px solid #00e6e6;
+	border-right: 0px solid #00e6e6;
+	box-shadow: 1px 1px 1px #999;
+	border-radius: 5px;
+}
+
+.textarea2{
+	height: 70px;
+	margin-left: 85px;
+	width: 70%;
+	border: 2px solid #ccc;
+	resize: none;
+	border-left: 5px solid #1aa3ff;
+	box-shadow: 1px 1px 1px #999;
+	border-radius: 5px;
+}
+
+.textarea3{
+	height: 70px;
+	margin-left: 85px;
+	width: 70%;
+	border: 2px solid #ccc;
+	resize: none;
+	border-left: 5px solid yellow;
+	box-shadow: 1px 1px 1px #999;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 300px) {
+
+
+}

@@ -1,0 +1,53 @@
+body{
+	overflow-x: hidden;
+}
+
+.bg-fluid{
+	background-image: url("../images/mainPhoto2.jpg");
+	width:100%;
+	height:500px;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#video{
+	padding-top:70px;
+}
+
+.slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+
+
+
+
+
+
+
